@@ -1,0 +1,93 @@
+.tipnav{
+    background-color: #474747;
+    color: white;
+    line-height: 25px;
+}
+.tipnav ul{
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+}
+.navtip li{
+    float: left;
+    margin-right: 15px;
+}
+.side1 li:hover{
+    color: white;
+    text-decoration: none;
+}
+.side1 li::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    width: 0%;
+    transition: all ease-in-out 300ms;
+}
+.side1 li:hover::before{
+    width: 70px;
+}
+
+.side2 li:hover{
+    color: white;
+    text-decoration: none;
+}
+.side2 li::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    width: 0%;
+    transition: all ease-in-out 300ms;
+}
+.side2 li:hover::before{
+    width: 70px;
+}
+.navsoci li{
+    float: right;
+    text-align: center;
+    background-color: grey;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.navigation{
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 100%;
+    line-height: 55px;
+    background-color:#5c5c5c;
+    border-top-style: solid;
+    border-top-color: gray;
+    border-top-width: 0.25px;
+    position: relative;
+    top: 10px;
+
+    
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.side1 li{
+    float: left;
+    margin-right: 30px;
+}
+
+.side2 li{
+    left: 80px;
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+.img{
+    position: absolute;
+    width: 50%;
+    float: center;
+    height: auto;
+}

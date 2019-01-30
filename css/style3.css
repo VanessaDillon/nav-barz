@@ -1,0 +1,130 @@
+.top{
+    background-color: #fafafa;
+    line-height: 40px;
+    color: #e74a3b;
+    border-bottom-style: solid;
+    border-bottom-color: #e8e8e8;
+    border-bottom-width: 0.25px;
+    position: relative;
+    bottom: 10px;
+    
+}
+.top i{
+    color: #6e6e6e;
+}
+.middle{
+    line-height: 50px;
+    background-color: #ffffff;
+}
+.phone li{
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    padding-right: 15px;
+}
+a:hover{
+    text-decoration: none;
+    color: #e74a3b;
+
+}
+a:link{
+    color: #e74a3b;
+    text-decoration: none;
+}
+.other li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    left: 400px;
+    
+}
+.img{
+    background-color: #ffffff;
+    position: relative;
+    left: 575px;
+    width: 10%;
+    height: auto;
+}
+.bottom{
+    background-color: #fafafa;
+    line-height: 50px;
+    text-transform: uppercase;
+    border-top-style: solid;
+    border-top-color: #e8e8e8;
+    border-top-width: 0.25px;
+    position: relative;
+    top: 10px;
+}
+.navvigate{
+    text-decoration: none;
+    list-style: none;
+
+}
+.navvigate a{
+    color: #474747;
+}
+.navvigate a:hover{
+    color: #e74a3b;
+}
+.navvigate li{
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    left: 200px;
+    font-size: 18px;
+    margin-right: 25px;
+    
+    
+}
+.navvigate li:hover{
+    color: #e74a3b;
+    text-decoration: none;
+}
+.navvigate li::before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #e74a3b;
+    position: absolute;
+    width: 0%;
+    transition: all ease-in-out 300ms;
+}
+.navvigate li:hover::before{
+    width: 70px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background-color: #fafafa;
+    min-width: 230px;
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 15px;
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a:hover::after{
+    width: 100%;
+}
+.dropdown-content a::after{
+    content:'';
+    display: block;
+    height: 5px;
+    background-color: #e74a3b;
+    position: absolute;
+    width: 0%;
+    transition: all ease-in-out 300ms;
+}
